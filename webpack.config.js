@@ -47,7 +47,7 @@ module.exports = {
       patterns: [
         { 
           from: path.resolve(__dirname, 'src', 'index.d.ts'), 
-          to: path.resolve(__dirname, 'miniprogram_dist', 'index.d.ts')
+          to: path.resolve(__dirname, 'dist', 'index.d.ts')
         },
       ],
     }),

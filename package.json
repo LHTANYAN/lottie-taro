@@ -1,6 +1,6 @@
 {
-  "name": "lottie-taro",
-  "version": "1.0.1",
+  "name": "mini-lottie",
+  "version": "1.0.2",
   "description": "lottie for taro",
   "main": "dist/index.js",
   "scripts": {

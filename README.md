@@ -1,8 +1,4 @@
 # Lottie for MiniProgram
-
-[![](https://img.shields.io/npm/v/lottie-miniprogram)](https://www.npmjs.com/package/lottie-miniprogram)
-[![](https://img.shields.io/npm/l/lottie-miniprogram)](https://github.com/wechat-miniprogram/lottie-miniprogram)
-
 lottie 动画库适配小程序的版本。
 
 > lottie 的相关介绍与动画生成方法等请参考[官方说明](https://github.com/airbnb/lottie-web)
@@ -15,7 +11,7 @@ lottie 动画库适配小程序的版本。
 
 1. 通过 npm 安装：
 ```
-npm install --save lottie-miniprogram
+npm install --save lottie-taro
 ```
 
 2. 传入 canvas 对象用于适配
@@ -23,7 +19,7 @@ npm install --save lottie-miniprogram
 <canvas id="canvas" type="2d"></canvas>
 ```
 ```
-import lottie from 'lottie-miniprogram'
+import lottie from 'lottie-taro'
 
 Page({
   onReady() {

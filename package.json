@@ -36,8 +36,5 @@
     "string-replace-loader": "^2.2.0",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
-  },
-  "dependencies": {
-    "@tarojs/taro": "3.5.6"
   }
 }

@@ -1,25 +1,28 @@
 {
-  "name": "lottie-miniprogram",
-  "version": "1.0.0",
+  "name": "lottie-taro",
+  "version": "1.0.1",
   "description": "lottie for taro",
-  "main": "miniprogram_dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
     "lint": "eslint \"src/**/*.js\""
   },
-  "miniprogram": "miniprogram_dist",
+  "miniprogram": "dist",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/LHTANYAN/lottie-taro.git"
   },
   "keywords": [
     "lottie",
     "taro"
   ],
-  "author": "luohuan",
+  "author": "LHTANYAN",
   "license": "MIT",
-  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/LHTANYAN/lottie-taro.git/issues"
+  },
+  "homepage": "https://github.com/LHTANYAN/lottie-taro.git#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",

@@ -8,7 +8,7 @@ module.exports = {
   output: {
     libraryTarget: 'commonjs',
     filename: 'index.js',
-    path: path.resolve(__dirname, 'miniprogram_dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
   devtool: '',
   module: {

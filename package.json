@@ -1,0 +1,40 @@
+{
+  "name": "lottie-miniprogram",
+  "version": "1.0.0",
+  "description": "lottie for taro",
+  "main": "miniprogram_dist/index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "lint": "eslint \"src/**/*.js\""
+  },
+  "miniprogram": "miniprogram_dist",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "lottie",
+    "taro"
+  ],
+  "author": "luohuan",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^6.0.3",
+    "eslint": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "lottie-web": "^5.7.4",
+    "string-replace-loader": "^2.2.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "@tarojs/taro": "3.5.6"
+  }
+}
